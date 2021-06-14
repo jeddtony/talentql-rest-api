@@ -1,6 +1,9 @@
 # Talentql-REST-API
 This is a RESTful API that supports the posts functionality of Facebook.
 
+### Postman Documentation Link
+https://documenter.getpostman.com/view/7429378/TzeUmTxf#90348ac7-9b82-439c-893e-d9081a08321e
+
 ### Stack Used
 This API was written in Node.js using the Express framework. The database used is a NoSQL database known as MongoDB. The reason for using MongoDB is because of it's speed of processing queries and the complex queries that can be performed on it. 
 
