@@ -1,0 +1,1 @@
+exports.DEFAULT_FILE_UPLOAD_FOLDER = "/storage/uploads"

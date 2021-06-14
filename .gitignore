@@ -1,0 +1,4 @@
+.env
+.env.develop
+.env.testing
+/node_modules
