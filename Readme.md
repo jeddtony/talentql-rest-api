@@ -4,10 +4,14 @@ This is a RESTful API that supports the posts functionality of Facebook.
 ### Postman Documentation Link
 https://documenter.getpostman.com/view/7429378/TzeUmTxf#90348ac7-9b82-439c-893e-d9081a08321e
 
-### Stack Used
+
+
+## Stack Used
 This API was written in Node.js using the Express framework. The database used is a NoSQL database known as MongoDB. The reason for using MongoDB is because of it's speed of processing queries and the complex queries that can be performed on it. 
 
-### Database Setup
+
+
+## Database Setup
 To setup the database, you must have MongoDB installed and running on your machine.
 
 To install and run MongoDB follow this link 
@@ -15,12 +19,16 @@ https://docs.mongodb.com/guides/server/install/
 
 It is assumed that the MongoDB database is running on the same server with the code
 
-### Setup
+
+
+## Setup
 Clone this repo and run the command
 
 `npm install`
 
-### Development Setup
+
+
+## Development Setup
 To run the app on your local machine, copy the contents of the ``.env.example`` file into a file name ``.env.develop `` and fill up the environment fields as required. 
 An example of the ``.env.develop`` is given below 
 
@@ -49,7 +57,8 @@ Then run the command
 
 This will start the app in development mode.
 
-#### Live Setup
+
+## Live Setup
 Alternatively, copy the contents of the ``.env.example`` file into a ``.env`` file and fill up the environment fields as required. 
 
 An example of the ``.env`` is given below 
@@ -78,7 +87,7 @@ Then run the command
 
 This will start the app in production mode
 
-### Running Tests 
+## Running Tests 
 To run tests copy the contents of the ``.env.example`` file into a ``.env.testing`` file and fill up the environment fields as required. Note, you must create a different database for testing. 
 
 An example of the ``.env.testing`` is given below 
