@@ -43,6 +43,17 @@ app.use((req, res, next) => {
   app.use("/", exampleRoute);
   app.use("/posts", postRoute)
 
+  app.use((error, req, res, next) => {
+    if (error !== null) {
+      return res.status(500).json({
+        "message": "Invalid JSON payload passed.",
+        "status": "error",
+        "data": null
+      });
+    }
+    return next();
+  });
+
 // process.exit();
 
 module.exports = app;
